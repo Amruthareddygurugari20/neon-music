@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aamu's Playlist - Musical Event Website</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===================== TEMPLATE COVER ===================== -->
+  <section class="template-cover">
+    <div class="cover-inner">
+      <div class="cover-left">
+        <div class="cover-logo">
+  <img src="img/logo.png" class="logo-img" alt="Aamu's Playlist Logo">
+  <span class="cover-logo-text">Aamu's Playlist</span>
+</div>
+
+        <h1>Aamu's Playlist<br />Musical Event Template</h1>
+        <p class="cover-subtitle">
+          A neon-themed landing page for concerts, festivals, and DJ events.
+          Fully responsive and built with pure HTML &amp; CSS.
+        </p>
+        <div class="cover-actions">
+          <a href="#hero" class="btn btn-primary">View Live Template</a>
+          <a href="#events" class="btn btn-outline">See Upcoming Shows</a>
+        </div>
+      </div>
+
+      <div class="cover-right">
+        <!-- Big main preview card -->
+        <div class="preview-main">
+          <img src="img/stage.jpg" alt="Aamu's Playlist hero preview" />
+          <p class="preview-caption"></p>
+        </div>
+
+        <!-- Smaller stacked preview cards -->
+        <div class="preview-stack">
+          <div class="preview-card">
+            <img src="img/stage1.jpg" alt="About page preview" />
+            <p class="preview-caption">About page preview</p>
+          </div>
+          <div class="preview-card">
+            <img src="img/dj.jpg" alt="Tickets preview" />
+            <p class="preview-caption">Tickets preview</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== HERO ===================== -->
+  <header id="hero" class="hero">
+    <div class="overlay"></div>
+
+    <nav class="nav container">
+      <div class="logo">
+        <span class="logo-icon">AP</span>
+        <span class="logo-text">Aamu's Playlist</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#performers">Performers</a></li>
+        <li><a href="#tickets">Tickets</a></li>
+        <li><a href="#events">Events</a></li>
+      </ul>
+      <a href="#tickets" class="btn btn-outline">Get Ticket</a>
+    </nav>
+
+    <div class="hero-content container">
+      <div class="hero-text">
+        <p class="eyebrow">Welcome</p>
+        <h2 class="hero-tagline">Music Event</h2>
+        <h1>GET THE BEAT</h1>
+        <p class="hero-subtitle">
+          Experience a night of electrifying performances, immersive lights,
+          and unforgettable energy. Join the ultimate musical event.
+        </p>
+        <div class="hero-actions">
+          <a href="#tickets" class="btn btn-primary">Book Now</a>
+          <button class="btn btn-ghost">Watch Trailer ▷</button>
+        </div>
+        <div class="hero-meta">
+          <div>
+            <span class="meta-label">Date</span>
+            <span class="meta-value">24 Dec 2025</span>
+          </div>
+          <div>
+            <span class="meta-label">Location</span>
+            <span class="meta-value">Cincinnati, OH</span>
+          </div>
+          <div>
+            <span class="meta-label">Tickets</span>
+            <span class="meta-value">Limited Seats</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="hero-image-inner">
+          <img src="img/dj.jpg" alt="DJ performing" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" class="section section-about">
+    <div class="container about-grid">
+      <div class="about-text">
+        <p class="eyebrow">About Aamu's Playlist</p>
+        <h2>We Organize Quality Musical Shows</h2>
+        <p>
+          Aamu's Playlist brings together the best artists, sound engineers, and
+          production teams to create immersive musical experiences. From
+          intimate gigs to arena shows, we handle everything end-to-end.
+        </p>
+        <p>
+          Our events feature world-class audio, dynamic lighting, and interactive
+          visuals that keep the crowd engaged from the first beat to the last.
+        </p>
+        <a href="#events" class="btn btn-primary">View Upcoming Shows</a>
+      </div>
+
+      <div class="about-media">
+        <div class="about-video">
+          <img src="img/stage.jpg" alt="Stage performance" />
+          <div class="play-badge">▶</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PERFORMERS ===================== -->
+  <section id="performers" class="section section-performers">
+    <div class="container">
+      <p class="eyebrow text-center">Our Performer For Events</p>
+      <h2 class="section-title text-center">Headlining Artists</h2>
+
+      <div class="performer-grid">
+        <div class="performer-card">
+          <div class="performer-avatar">
+            <img src="img/performer1.jpg" alt="Performer 1" />
+          </div>
+          <h3>Nina Hudson</h3>
+          <p>Electronic DJ</p>
+        </div>
+
+        <div class="performer-card">
+          <div class="performer-avatar">
+            <img src="img/performer2.jpg" alt="Performer 2" />
+          </div>
+          <h3>Alex Rivera</h3>
+          <p>Pop Vocalist</p>
+        </div>
+
+        <div class="performer-card">
+          <div class="performer-avatar">
+            <img src="img/performer3.jpg" alt="Performer 3" />
+          </div>
+          <h3>Lilith Chrome</h3>
+          <p>Trap &amp; Bass</p>
+        </div>
+
+        <div class="performer-card">
+          <div class="performer-avatar">
+            <img src="img/performer4.jpg" alt="Performer 4" />
+          </div>
+          <h3>Draco Groove</h3>
+          <p>Hip-Hop Artist</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TICKETS ===================== -->
+  <section id="tickets" class="section section-tickets">
+    <div class="container">
+      <p class="eyebrow text-center">Choose Your Ticket</p>
+      <h2 class="section-title text-center">Get Your Pass</h2>
+
+      <div class="ticket-grid">
+        <div class="ticket-card">
+          <h3>Standard</h3>
+          <p class="ticket-price">$120</p>
+          <ul>
+            <li>General seating</li>
+            <li>1 free drink</li>
+            <li>Merchandise discount</li>
+          </ul>
+          <a href="#" class="btn btn-outline full-width">Buy Standard</a>
+        </div>
+
+        <div class="ticket-card ticket-featured">
+          <div class="ticket-tag">Most Popular</div>
+          <h3>VIP</h3>
+          <p class="ticket-price">$210</p>
+          <ul>
+            <li>Front row seats</li>
+            <li>Backstage access</li>
+            <li>Meet &amp; greet with artists</li>
+          </ul>
+          <a href="#" class="btn btn-primary full-width">Buy VIP</a>
+        </div>
+
+        <div class="ticket-card">
+          <h3>Platinum</h3>
+          <p class="ticket-price">$450</p>
+          <ul>
+            <li>Private lounge</li>
+            <li>Unlimited drinks &amp; snacks</li>
+            <li>Exclusive gift box</li>
+          </ul>
+          <a href="#" class="btn btn-outline full-width">Buy Platinum</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EVENTS ===================== -->
+  <section id="events" class="section section-events">
+    <div class="container">
+      <p class="eyebrow text-center">Next Events</p>
+      <h2 class="section-title text-center">Upcoming Musical Show</h2>
+
+      <div class="events-strip">
+        <div class="event-item">
+          <span class="event-date">Jan 20</span>
+          <span class="event-name">Neon Nights Festival</span>
+          <span class="event-location">Columbus, OH</span>
+        </div>
+
+        <div class="event-item">
+          <span class="event-date">Feb 03</span>
+          <span class="event-name">Electric Pulse Tour</span>
+          <span class="event-location">Cleveland, OH</span>
+        </div>
+
+        <div class="event-item">
+          <span class="event-date">Feb 15</span>
+          <span class="event-name">Midnight Beats Live</span>
+          <span class="event-location">Cincinnati, OH</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo">
+          <span class="logo-icon">AP</span>
+          <span class="logo-text">Aamu's Playlist</span>
+        </div>
+        <p class="footer-text">
+          Musical event website concept recreated by Amrutha for learning &amp; portfolio.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">YouTube</a></li>
+          <li><a href="#">Spotify</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>info@aamusplaylist.com</li>
+          <li>+1 (555) 123-4567</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer-bottom">
+      © 2025 Aamu's Playlist. All rights reserved. Design inspired by neon musical event templates.
+    </p>
+  </footer>
+</body>
+</html>
